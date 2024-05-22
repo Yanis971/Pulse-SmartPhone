@@ -51,30 +51,27 @@ const Login = () => {
 
 
   return (
-    <div className='flex flex-1 flex-col h-screen justify-start items-center bg-black'>
-      <h2 className='text-white font-bold text-xl py-5'>Connectez vous!</h2>
+    <div className='flex flex-1 flex-col h-screen justify-start items-center bg-white'>
+      <h2 className='text-black font-bold text-xl py-5'>Pulse SmartPhone</h2>
       <form onSubmit={handleSubmit} className='max-w-md mx-auto'>
         {/* input pour email */}
         <CustomInput
           state={email}
-          label="Mon email"
+          label="Nom d'utilisateur"
           type="email"
           callable={(event) => setEmail(event.target.value)}
         />
         {/* input pour password */}
         <CustomInput
           state={password}
-          label="Mon mot de passe"
+          label="Mot de passe"
           type="password"
           callable={(event) => setPassword(event.target.value)}
         />
-        <p className='text-white'>Vous n'avez pas de compte?
-          <Link to='/register' className='text-white font-bold hover:text-green'> Créer un compte</Link>
-        </p>
         <div className='flex items-center justify-center pt-5'>
           {isLoading ? <ButtonLoader /> :
-            <button type='submit' className='bg-green hover:bg-green_top text-white font-bold py-2 px-4 rounded'>
-              S'enregistrer
+            <button type='submit' className='bg-blue hover:bg-blue_top text-white font-bold py-2 px-4 rounded'>
+              Se connecter
             </button>}
         </div>
 

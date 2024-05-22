@@ -16,6 +16,8 @@ export default {
         green_08: 'rgba(30, 215, 96, 0.8)',
         green_06: 'rgba(30, 215, 96, 0.6)',
         green_top: 'rgba(26, 173, 78, 1)',
+        blue: 'rgba(15, 10, 222, 1)',
+        blue_top: 'rgba(132, 140, 207,1)',
       },
       animation: {
         slideup: 'slideup 1s ease-in-out',
