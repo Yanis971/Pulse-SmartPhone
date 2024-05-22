@@ -8,8 +8,8 @@ const HomeOffline = () => {
       <div className='w-screen bg-white'>
         <img
           src={'https://upload.wikimedia.org/wikipedia/commons/5/55/GEN_id_color_rgb.png'}
-          alt=""
-          className='w-full h-28 object-contain pt-4'
+          alt='http://wsar1077:8080/pulse/plugins/pulse/#/'
+          className='w-full h-36 object-contain pt-2'
         />
       </div>
       <Outlet />
