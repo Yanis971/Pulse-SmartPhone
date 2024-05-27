@@ -18,7 +18,7 @@ Quoi :
 L'application va servir d'extension a Pulse qui est deployer sur le web. Disponible sur vos smartphones l’application permettra de simplifie la recuperation des indicateurs presentes dans API REST. Il y'aura plusieurs versions de widgets, toute apporteront quelque chose de nouvau. Notament un système de filtrage qui ameliorererai grandement la visibilité. 
 
 Pourquoi le deployer sur mobile :
-Le but etre prevenus de tous incidents sur Pulse au travail comme a la maison.
+Le but être prévenus de tous incidents sur Pulse au travail comme a la maison
 Le but est que l’utilisateurs soit notifier plus rapidement. 
 
 Comment : 
