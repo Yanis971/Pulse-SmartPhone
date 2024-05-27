@@ -23,3 +23,13 @@ La documentation s’adresse aux clients seulement.
 
 Comment : 
 Developpe sur un schema d’un iphone 14 pro max et d’un Samsung Galaxy S20 Ultra, Pulse Smartphone est utilisable de l’iphone SE au 14 pro max et pour les android.
+
+
+Partie Devellopeur : 
+L’application est développée sur React + Vite. 
+Le serveur dev de react et l’API doit être lancer en même temps pour que l'application soit fonctionnels
+Si l’API n’est pas lancée alors les utilisateurs ne peuvent pas s’authentifier.
+Il est conseillé de d’abord de faire un npm install pour tous re start (packages).
+Le cmd pour lancer le serveur dev de react : npm run dev.
+Pour aller plus vite on peut tous installer d’un coup puis lancer le serveur en meme temps avec ce cmd :  npm install && npm run dev
+Le cmd pour lanceur l’API : 
